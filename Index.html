@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartHouse Rosario</title>
-    <link rel="favicon logo" href="/Proyecto/img/Smarhouse-logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/Css/Style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SmartHouse Rosario - Narbar con CSS</title>
+  <link rel="favicon logo" href="/Proyecto/img/Smarhouse-logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/Css/Style.css">
 </head>
+
 <body>
-    <header>   
-        <nav>
+  <header class="header">
+    <div class="logo">
+      <img src="img/Smart.jpg" alt="Logo de la marca">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="#"><button>Contact</button></a>
+    <!-- <nav>
           <div>
             <ul>
               <li>
@@ -24,27 +38,109 @@
             <li class="navi"><a href="Templates/quienes-somos.html">¿Quienes Somos?</a></li>
             <li class="navi"><a href="Templates/contacto.html">Contatanos</a></li>
           </ul>
-    </nav>
+    </nav> -->
     <h1>Smart House</h1>
-    <h2>Tu casa Inteligente </h2>      
+    <h2>Tu casa Inteligente </h2>
   </header>
-    <main>
+  <main>
+    <table style="width: 100%; border-collapse: collapse;" border="1">
+      <tbody>
+        <tr>
+          <!-- Nav Bar -->
+          <td class="navbar">&nbsp;</td>
+          <!-- Logo de marca -->
+          <td class="logo">&nbsp;</td>
+        </tr>
+        <tr class="content">
+          <!-- Contenido del Secc 1 -->
+          <td style="width: 63%;">
+            <div class="section-content">
+              <h2>Contenido del Secc 1 "aca se puede escribir algo /// "</h2>
+              <a href="#" class="section-btn">Contáctenos</a>
+              <p>Este es el contenido de la sección 1.</p>
+            </div>
+          </td>
+          <!-- Noticia -->
+          <td style="width: 37%;">Noticia</td>
+        </tr>
+        <tr class="content">
+          <!-- Contenido del Secc 2 -->
+          <td style="width: 63%;">&nbsp;
+            <h2>
+              <section class="section">
+                <div class="specialBox">
+                  <button>Plan 1</button>
+                  <button>Plan 2</button>
+                  <button>Plan 3</button>
+                </div>
+                <h2>Contenido del Sección 2</h2>
+              </section>
+            </h2>
+          </td>
+          <!-- Noticia -->
+          <td style="width: 37%;">Noticia</td>
+        </tr>
+        <tr class="content">
+          <!-- Contenido del Secc 3 -->
+          <td style="width: 63%;">&nbsp;
+            <h2>
+              <h3 align="center">Smart House</h3>
+              <h4 align="center">Es mucho más que un sistema de domótica; es una revolución en la forma en que
+                interactúas con tu hogar.
+                Imagina un espacio inteligente que se adapta a tus deseos, gustos y rutinas, transformando tu casa en un
+                entorno vivo y dinámico.
 
-    </main>
-    
+                Con Smart House, la domótica alcanza su máximo potencial.
+                Desde hogares residenciales hasta espacios comerciales, nuestro sistema inteligente ofrece una solución
+                completa y adaptable a cualquier necesidad.
+                Controla tu hogar desde una única aplicación y experimenta un nuevo nivel de comodidad y conveniencia.
+
+                Descubre cómo la tecnología de Smart House puede mejorar tu calidad de vida y convertir tu hogar en un
+                espacio verdaderamente inteligente.
+              </h4>
+            </h2>
+          </td>
+          <!-- Noticia -->
+          <td style="width: 37%;">
+            <table>
+              <tr>
+                <td>Nombre:</td>
+                <td><input type="text" id="nombre" name="nombre"></td>
+              </tr>
+              <tr>
+                <td>Dirección de correo:</td>
+                <td><input type="email" id="email" name="email"></td>
+              </tr>
+              <tr>
+                <td>Teléfono:</td>
+                <td><input type="tel" id="telefono" name="telefono"></td>
+              </tr>
+              <tr>
+                <td colspan="2"><button class="send-btn">Enviar solicitud</button></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
 </body>
+
+
 <script type="text/javascript">
-    (function(d, t) {
-        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        v.onload = function() {
-          window.voiceflow.chat.load({
-            verify: { projectID: '65fae236c9223f71db3e4422' },
-            url: 'https://general-runtime.voiceflow.com',
-            versionID: 'production'
-          });
-        }
-        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-    })(document, 'script');
-  </script>
+  (function (d, t) {
+    var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+    v.onload = function () {
+      window.voiceflow.chat.load({
+        verify: { projectID: '65fae236c9223f71db3e4422' },
+        url: 'https://general-runtime.voiceflow.com',
+        versionID: 'production'
+      });
+    }
+    v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
 <footer></footer>
+
 </html>
