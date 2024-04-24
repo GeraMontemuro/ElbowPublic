@@ -1,0 +1,29 @@
+Paquete Inicial "Smart Essentials":
+Google Home Mini.
+2 bombillas LED RGB.
+Control infrarrojo para un dispositivo.
+Precio asequible para quienes deseen iniciarse en la domótica.
+
+Paquete "Casa Conectada":
+Google Home.
+4 bombillas LED RGB.
+Control infrarrojo para varios dispositivos.
+Interruptores inteligentes para luces.
+Ideal para mejorar la conectividad y la comodidad en varias habitaciones.
+
+Paquete "Tech Explorer":
+Google Home.
+6 bombillas LED RGB.
+Control infrarrojo para múltiples dispositivos.
+Interruptores inteligentes.
+Aspirador inteligente para una limpieza automatizada.
+Ventilador inteligente para control climático.
+Para aquellos que desean explorar todas las posibilidades de la tecnología inteligente en el hogar.
+
+Paquete "Casa Totalmente Inteligente":
+Google Home Hub.
+Juego completo de bombillas LED RGB para toda la casa.
+Control infrarrojo avanzado para múltiples dispositivos.
+Interruptores inteligentes en todas las habitaciones.
+Aspirador y ventilador inteligentes.
+Solución completa para una casa totalmente integrada y automatizada.
