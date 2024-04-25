@@ -1,0 +1,18 @@
+Cambios a realizar 
+-Quitar del navbar una solapa, y dejar la de  "Acerca de"  "Planes" "Contactos" en todas las ventanas.
+-Quitar del index.html Contactenos Button, e intercambiar por acceso directo a Instagram.
+- quitar botones de plan 1 2 y 3, intercambiar por imagenes de casas confortables 
+e informacion de automatizaciones.
+-Quitar acceso contacot ( nombre direccion telefono) esa misma agrgarla en seccion " Contactos"
+
+
+- En sopala Acerca de agregar informacion e imagenes ilustrativas de Smart House ( incluir videos cortos )
+
+- En Planes Agregar ( si quieren) el desplegable plan 1 plan 2 y plan 3   + Acceso a contactos  ( para mas in formacion)
+.. abajo
+
+- En contatos Agregar Formulacion de contacto completo + acceso a redes sociales y atencion al cliente ( telefotono Whatsaap)
+
+
+- Agregar Footer  ( terminos y condiciones, legales, derechos reservados...)
+
