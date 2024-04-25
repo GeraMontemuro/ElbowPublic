@@ -103,6 +103,20 @@ body {
     transform: scale(1.1);
 }
 
+/* Dropdown */
+.dropdown {
+    display: none;
+    position: absolute; /* Agregamos posicionamiento absoluto */
+}
+.nav-links {
+    position: relative; /* Agregamos posicionamiento relativo al contenedor de enlaces */
+}
+
+.dropdown li{
+    white-space: nowrap; /* Evita que los elementos se desplacen a la siguiente línea */
+}
+
+
 /* Estilos de las secciones */
 .section {
     border: 2px solid black; /* Añade un borde negro */
