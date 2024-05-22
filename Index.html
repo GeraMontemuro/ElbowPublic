@@ -1,152 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SmartHouse Rosario - Narbar con CSS</title>
-  <link rel="favicon logo" href="../ElbowPublic/img/Smart.jpg" type="image/x-icon">
-  <link rel="stylesheet" href="/Css/Style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/styleMenu.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <title>SmartHouse-Tu casa inteligente</title>
+    <link rel="shortcut icon" href="/img/Recurso_74x.ico" />
+    <script src="https://kit.fontawesome.com/790a080893.js" crossorigin="anonymous"></script>
+   
 </head>
-
 <body>
-  <header class="header">
-    <div class="logo">
-      <img src="img/Smart.jpg" alt="Logo de la marca">
-    </div>
-    <nav>
-      <ul class="nav-links">
-          <li><a href="#" id="services-link">Services</a>
-              <ul id="services-dropdown" class="dropdown">
-                  <li><a href="#">Servicio 1</a></li>
-                  <li><a href="#">Servicio 2</a></li>
-                  <li><a href="#">Servicio 3</a></li>
-              </ul>
-          </li>
-          <li><a href="Templates/quienes-somos.html">quienes-somos</a></li>
-          <li><a href="/Templates/planes.html">Planes</a></li>
-      </ul>         
-  </nav>
-    <a class="btn" href="/Templates/contacto.html"><button>Contact</button></a>
-    <!-- <nav>
-          <div>
+    <header class="nav navbar" >
+        <a href="../index.html">
+            <img id="logo" src="../Elbow-Copia/img/Recurso_34x_2.png" alt="logo"></a>
+        <img id="logoName" src="../Elbow-Copia/img/Recurso_24x_2.png" alt="logoName">
+        <nav class="Nav-Letter">
             <ul>
-              <li>
-                <a href="/Index.html">
-                  <img class="logo" src="/img/Smarhouse-logo.png" alt="">
-                </a>
-              </li>
+                <li><a href="../Elbow-Copia/acercade.html">ACERCA DE</a> </li>
+                <li><a href="../Elbow-Copia/packs.html">PACKS</a> </li>
+                <li><a href="../Elbow-Copia/contacto.html">CONTACTO</a> </li>
             </ul>
-          </div>
-          <ul> 
-            <li class="navi"><a href="/Templates/contacto.html">Planes</a></li>
-            <li class="navi"><a href="Templates/quienes-somos.html">¿Quienes Somos?</a></li>
-            <li class="navi"><a href="Templates/contacto.html">Contatanos</a></li>
-          </ul>
-    </nav> -->
-    <h1>Smart House</h1>
-    <h2>Tu casa Inteligente </h2>
-  </header>
-  <main>
-    <table style="width: 100%; border-collapse: collapse;" border="1">
-      <tbody>
-        <tr>
-          <!-- Nav Bar -->
-          <td class="navbar">&nbsp;</td>
-          <!-- Logo de marca -->
-          <td class="logo">&nbsp;</td>
-        </tr>
-        <tr class="content">
-          <!-- Contenido del Secc 1 -->
-          <td style="width: 63%;">
-            <div class="section-content">
-              <h2>Contenido del Secc 1 "aca se puede escribir algo /// "</h2>
-              <a href="#" class="section-btn">Contáctenos</a>
-              <p>Este es el contenido de la sección 1.</p>
-            </div>
-          </td>
-          <!-- Noticia -->
-          <td style="width: 37%;">Noticia</td>
-        </tr>
-        <tr class="content">
-          <!-- Contenido del Secc 2 -->
-          <td style="width: 63%;">&nbsp;
-            <h2>
-              <section class="section">
-                <div class="specialBox">
-                  <button>Plan 1</button>
-                  <button>Plan 2</button>
-                  <button>Plan 3</button>
-                </div>
-                <h2>Contenido del Sección 2</h2>
-              </section>
-            </h2>
-          </td>
-          <!-- Noticia -->
-          <td style="width: 37%;">Noticia</td>
-        </tr>
-        <tr class="content">
-          <!-- Contenido del Secc 3 -->
-          <td style="width: 63%;">&nbsp;
-            <h2>
-              <h3 align="center">Smart House</h3>
-              <h4 align="center">Es mucho más que un sistema de domótica; es una revolución en la forma en que
-                interactúas con tu hogar.
-                Imagina un espacio inteligente que se adapta a tus deseos, gustos y rutinas, transformando tu casa en un
-                entorno vivo y dinámico.
+        </nav>
+    </header>
+            <div class="grid">
+                <section class="news1">
 
-                Con Smart House, la domótica alcanza su máximo potencial.
-                Desde hogares residenciales hasta espacios comerciales, nuestro sistema inteligente ofrece una solución
-                completa y adaptable a cualquier necesidad.
-                Controla tu hogar desde una única aplicación y experimenta un nuevo nivel de comodidad y conveniencia.
+                </section>
 
-                Descubre cómo la tecnología de Smart House puede mejorar tu calidad de vida y convertir tu hogar en un
-                espacio verdaderamente inteligente.
-              </h4>
-            </h2>
-          </td>
-          <!-- Noticia -->
-          <td style="width: 37%;">
-            <table>
-              <tr>
-                <td>Nombre:</td>
-                <td><input type="text" id="nombre" name="nombre"></td>
-              </tr>
-              <tr>
-                <td>Dirección de correo:</td>
-                <td><input type="email" id="email" name="email"></td>
-              </tr>
-              <tr>
-                <td>Teléfono:</td>
-                <td><input type="tel" id="telefono" name="telefono"></td>
-              </tr>
-              <tr>
-                <td colspan="2"><button class="send-btn">Enviar solicitud</button></td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </main>
-  <script src="script.js"></script>
+                <section class="patrocinador1">
+                    <p>Philips</p>
+                    <img src="../Elbow-Copia/img/transparent-philipslogo.png" alt="Philips">
+                </section>
+
+                <section class="patrocinador2"> 
+                    <p>Philips</p>
+                    <img src="../Elbow-Copia/img/samsung.png" alt="Samsung">
+                </section>
+
+                <section class="patrocinador3">
+                  <p>Broadlink</p>
+                  <img src="../Elbow-Copia/img/Broadlink.png" alt="Broadlink">
+                    
+                </section>
+                <footer class="footer">
+                    <div class="container">
+                      <div class="footer-content">
+                        <div class="footer-logo">
+                            <img src="../Elbow-Copia/img/Recurso_14x.png" alt="Logo">
+                        </div>
+                        <div class="footer-info">   
+                          <p>&copy; 2024 SmartHouse. Todos los derechos reservados.</p>
+                          <p> <i class="fa-solid fa-map-location-dot"></i> Dirección: Avenida de las Noticias 123, Buenos Aires, Argentina</p>
+                          <p> <i class="fa-solid fa-phone"></i> Teléfono: +54 9 123456789</p>
+                          <p> <i class="fa-solid fa-envelope"></i> Email: smarthouserosario@gmail.com</p>
+                        </div>
+                      </div>
+                    </div>
+                </footer>
+    </div>
+    <audio autoplay ="../Elbow-Copia/audio/Smarthouse_mp3.mp3" ></audio>
+
+    <script type="text/javascript">
+        (function (d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function () {
+            window.voiceflow.chat.load({
+              verify: { projectID: '65fae236c9223f71db3e4422' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production'
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
 </body>
-
-
-<script type="text/javascript">
-  (function (d, t) {
-    var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-    v.onload = function () {
-      window.voiceflow.chat.load({
-        verify: { projectID: '65fae236c9223f71db3e4422' },
-        url: 'https://general-runtime.voiceflow.com',
-        versionID: 'production'
-      });
-    }
-    v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
-</script>
-<footer></footer>
-
 </html>

@@ -3,53 +3,101 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planes</title>
-    <link rel="favicon logo" href="../ElbowPublic/img/Smart.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="/Css/Style.css">
+    <link rel="stylesheet" href="../Elbow-Copia/css/style.css">
+    <link rel="stylesheet" href="../Elbow-Copia/css/styleMenu.css">
+    <link rel="stylesheet" href="../Elbow-Copia/css/Footer.css">
+    <title>SmartHouse-Tu casa inteligente</title>
+    <link rel="shortcut icon" href="../Elbow-Copia/img/Recurso_74x.ico" />
+    <script src="https://kit.fontawesome.com/790a080893.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="header">
-    <div class="logo">
-      <a href="/Index.html">
-        <img src="/img/Smart.jpg" alt="Logo de la marca">
-    </a>
-    </div>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#" id="services-link">Services</a>
-                <ul id="services-dropdown" class="dropdown">
-                    <li><a href="#">Servicio 1</a></li>
-                    <li><a href="#">Servicio 2</a></li>
-                    <li><a href="#">Servicio 3</a></li>
-                </ul>
-            </li>
-            <li><a href="/Templates/quienes-somos.html">quienes-somos</a></li>
-            <li><a href="/Templates/planes.html">Planes</a></li>
-        </ul>
-    </nav>
-    <a class="btn" href="/Templates/contacto.html"><button>Contact</button></a>
-    <!-- <nav>
-          <div>
+    <header class="nav navbar">
+        <a href="../Elbow-Copia/index.html">
+            <img id="logo" src="../Elbow-Copia/img/Recurso_34x_2.png" alt="logo"></a>
+        <img id="logoName" src="../Elbow-Copia/img/Recurso_24x_2.png" alt="logoName">
+        <nav class="Nav-Letter">
             <ul>
-              <li>
-                <a href="/Index.html">
-                  <img class="logo" src="/img/Smarhouse-logo.png" alt="">
-                </a>
-              </li>
+                <li><a href="../Elbow-Copia/acercade.html">ACERCA DE</a> </li>
+                <li><a href="../Elbow-Copia/packs.html">PACKS</a> </li>
+                <li><a href="../Elbow-Copia/contacto.html">CONTACTO</a> </li>
             </ul>
-          </div>
-          <ul> 
-            <li class="navi"><a href="/Templates/contacto.html">Planes</a></li>
-            <li class="navi"><a href="Templates/quienes-somos.html">¿Quienes Somos?</a></li>
-            <li class="navi"><a href="Templates/contacto.html">Contatanos</a></li>
-          </ul>
-    </nav> -->
-    <h1>Smart House</h1>
-    <h2>Tu casa Inteligente </h2>
+        </nav>
     </header>
+    <div class="grid">
+        <section class="pack1">
+            <a href="" class="linkNews secondaryImg"><img src="../Elbow-Copia/img/Pack1img.png" alt="">
+                <h2>Paquete Inicial "Smart Essentials" </h2>
+            </a>
+            <ul>
+                <li>Google Home Mini.</li>
+                <li>2 bombillas LED RGB.</li>
+                <li>Control infrarrojo para un dispositivo.</li>
+            </ul>
+        </section>
 
+        <section class="pack2">
+            <a href="" class="linkNews secondaryImg"><img src="../Elbow-Copia/img/Pack2img.png" alt="">
+                <h2>Paquete "Casa Conectada"</h2>
+            </a>
+            <ul>
+                <li>Google Home.</li>
+                <li>4 bombillas LED RGB.</li>
+                <li>Control infrarrojo para varios dispositivos.</li>
+                <li>Interruptores inteligentes para luces.</li>
+
+            </ul>
+        </section>
+
+        <section class="Pack3">
+            <a href="" class="linkNews secondaryImg"><img src="../Elbow-Copia/img/Pack3img.png" alt="">
+                <h2>Paquete "Seguridad Avanzada"</h2>
+            </a>
+            <ul>
+                <li>Google Home Hub.</li>
+                <li>Juego completo bombillas LED RGB.</li>
+                <li>Control infrarrojo avanzado.</li>
+                <li>Interruptores inteligentes</li>
+                <li>Aspirador y ventilador inteligentes.</li>
+                <li>Cerradura inteligente.</li>
+                <li>Cámara de seguridad inteligente.</li>
+                <li>Sensores de movimiento y puertas/ventanas.</li>
+                <li>Termostato inteligente.</li>
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="../Elbow-Copia/img/Recurso_14x.png" alt="Logo">
+                    </div>
+                    <div class="footer-info">
+                        <p>&copy; 2024 SmartHouse. Todos los derechos reservados.</p>
+                        <p> <i class="fa-solid fa-map-location-dot"></i> Dirección: Avenida de las Noticias 123, Buenos
+                            Aires, Argentina</p>
+                        <p> <i class="fa-solid fa-phone"></i> Teléfono: +54 9 123456789</p>
+                        <p> <i class="fa-solid fa-envelope"></i> Email: smarthouserosario@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        (function (d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function () {
+            window.voiceflow.chat.load({
+              verify: { projectID: '65fae236c9223f71db3e4422' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production'
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
 </body>
 
 </html>
