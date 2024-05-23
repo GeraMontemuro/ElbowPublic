@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Elbow-Copia/css/contacto.css">
+    <link rel="stylesheet" href="../Elbow-Copia/css/acercade.css">
+    <link rel="stylesheet" href="../Elbow-Copia/css/styleMenu.css">
+    <link rel="stylesheet" href="../Elbow-Copia/css/Footer.css">
+    <title>SmartHouse-Tu casa inteligente</title>
+    <link rel="shortcut icon" href="../Elbow-Copia/img/Recurso_74x.ico" />
+    <script src="https://kit.fontawesome.com/790a080893.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+
+<body>
+    <header class="nav navbar">
+        <a href="../Elbow-Copia/index.html">
+            <img id="logo" src="../Elbow-Copia/img/Recurso_34x_2.png" alt="logo"></a>
+        <img id="logoName" src="../Elbow-Copia/img/Recurso_24x_2.png" alt="logoName">
+        <nav class="Nav-Letter">
+            <ul>
+                <li><a href="../Elbow-Copia/acercade.html">ACERCA DE</a> </li>
+                <li><a href="../Elbow-Copia/packs.html">PACKS</a> </li>
+                <li><a href="../Elbow-Copia/contacto.html">CONTACTO</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="contenedor">
+      <h1 class="logo">Contactanos<span> Ahora</span></h1>
+  
+      <div class="tarjeta">
+        <div  class="formulariodecontacto">
+          <h3>Escribinos</h3>
+            <form id="formulario" method="post" class="form">
+              <p>
+                <input id="nombre" type="text" name="Nombre" required>
+                <label for="text">Nombre</label>         
+              </p>
+              <p>
+                <input id="Email" type="email" name="Email" required>
+                <label for="text">Email</label>           
+              </p>
+              <p>
+                <input id="Telefono" type="tel" name="Telefono" required>
+                <label for="tel">Telefono</label> 
+              </p>
+              <p>
+                <label for="Tipo de Plan">Elije el Plan o motivo de consulta</label>
+                <br>
+                  <select class="ddl-planes" id="Planes" name="Planes">
+                    <option value="Pack Inicial"> Smart Essential</option>
+                    <option value="Pack Medio"> Casa Conectada</option>
+                    <option value="Pack Avanzado"> Seguridad Avanzada</option>
+                    <option value="Otros"> Otros...</option>
+                  </select>
+              <p class="block">
+                <textarea name="Mensaje" rows="3"></textarea>
+                <label>Mensaje</label>
+              </p>
+              <p class="block">
+                <button type="submit">
+                  Enviar
+                </button>
+              </p>
+              <p id="error" class="error"></p>                                        
+            </form>
+          </div>
+
+        <div class="Iframe">
+          <iframe display:"block" src="https://www.youtube.com/embed/GJ7xUOeceEc?si=3_CiSrDkuwi5kRN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe display:"block" src="https://www.youtube.com/embed/3FAgY6STuMg?si=0aFEEB6OGuKz2V6Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe display:"block" src="https://www.youtube.com/embed/3FAgY6STuMg?si=0aFEEB6OGuKz2V6Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>    
+      </div>
+    </div>
+    <script src="validacion.js"></script>
+  </body>
+
+        <footer class="footer">
+            <div class="container">
+              <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../Elbow-Copia/img/Recurso_14x.png" alt="Logo">
+                </div>
+                <div class="footer-info">   
+                  <p>&copy; 2024 SmartHouse. Todos los derechos reservados.</p>
+                  <p> <i class="fa-solid fa-map-location-dot"></i> Dirección: Avenida de las Noticias 123, Buenos Aires, Argentina</p>
+                  <p> <i class="fa-solid fa-phone"></i> Teléfono: +54 9 123456789</p>
+                  <p> <i class="fa-solid fa-envelope"></i> Email: smarthouserosario@gmail.com</p>
+                </div>
+              </div>
+            </div>
+        </footer>
+
+
+       <script type="text/javascript">
+            (function (d, t) {
+              var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+              v.onload = function () {
+                window.voiceflow.chat.load({
+                  verify: { projectID: '65fae236c9223f71db3e4422' },
+                  url: 'https://general-runtime.voiceflow.com',
+                  versionID: 'production'
+                });
+              }
+              v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+            })(document, 'script');
+          </script>
+</html>

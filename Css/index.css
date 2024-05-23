@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: hsl(32, 77%, 90%);;
+    color: hsl(60, 5%, 4%);
+  }
+  
+  .grid {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "news1 news1 news1"
+      "news1 news1 news1"
+      "patrocinador1 patrocinador2 patrocinador3"
+      "footer footer footer"; /* Agregamos el footer a la cuarta fila */
+  }
+  
+  .news1 {
+    grid-area: news1;
+    height: 800px; /* Altura deseada del contenedor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/smarthome-e1539869677921-768x471-gigapixel-standard-scale-2_00x.jpg');
+    
+  }
+
+  .patrocinador1,
+  .patrocinador2,
+  .patrocinador3{
+    text-align: center; 
+
+  }
+
+
+  p {
+    margin: 1.3em;
+  }
+  
+  h2 {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
+  
+  a:hover {
+    color: rgb(89, 89, 89);
+  }
+  
+  .footer {
+    grid-area: footer; /* Añadimos esto para asignar el footer a su área */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+ 
+  head { 
+   position: fixed;
+
+  }

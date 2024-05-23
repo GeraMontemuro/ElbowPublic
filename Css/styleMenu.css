@@ -1,0 +1,115 @@
+header{
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+	align-items: center;
+  background-color: rgb(229, 209, 248);
+  overflow: hidden;
+  justify-content: space-around;
+  z-index: 1000;  
+}
+
+#logoName{
+  width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+header nav ul {
+	display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+    
+    
+}
+
+header nav ul li{
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    
+}		
+
+header nav ul li a{
+    color: rgb(199, 16, 209);
+    text-decoration: none;
+    font-size: 1.5em;
+    color:rgb(199, 16, 209);
+
+
+}
+
+header nav ul li :hover {
+    color: rgba(92, 177, 231, 0.776);
+    transition: 0.5s;
+}
+
+
+
+/* Media Query para pantallas de ancho entre 600px y 768px */
+@media (min-width: 600px) and (max-width: 768px) {
+  header {
+   
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  header nav ul li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Media Query para pantallas de ancho entre 320px y 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #logo {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav ul li a {
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente según tus preferencias */
+  }
+}

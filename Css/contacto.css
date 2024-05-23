@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.contenedor{    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1.5em;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+    font-size: 2.3em;
+    padding: 1em;
+}
+.ddl-planes{
+    box-sizing: border-box;
+    background-color: #f0f7f7;   
+    font-size: medium;
+}
+.logo span{
+    color:cornflowerblue;
+    font-size: 1.9m;   
+}
+/* Sombra de la tarjeta*/
+.tarjeta{
+    box-shadow:0 0 20px 0 rgba(40, 46, 48, 0.3);    
+}
+
+.tarjeta > *{
+    padding: 1em;
+}
+
+.formulariodecontacto{ 
+       
+    display:flexbox;
+    background: #e9daf1
+}
+.Iframe{
+    background-image:linear-gradient(135deg,#00B7D4, #505488,#2F3F80,#161569,#5A4894,#A950A1,#FF7CAE);
+    background-size: 1000%;
+    display:flexbox;
+    align-items: center;
+    background-color: #c7648f;
+    text-align: center;  
+    animation: fanimado 10s infinite;         
+}
+.formulariodecontacto form p{
+    margin: 0;
+    padding: 1em;
+
+}
+/*Ordenamiento del formulario*/
+.formulariodecontacto form button,
+.formulariodecontacto form input,
+.formulariodecontacto form textarea{
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: .7em;
+    border: none;
+    overflow: hidden;
+    background:none;
+    outline: 0;
+    color: rgb(68, 71, 71);
+    font-size:large;
+    border-bottom: 1px solid white;
+}
+/*Diseño del button*/
+.formulariodecontacto form button{
+    background-color:cadetblue;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+/*interaccion del button cuando paso cursor*/
+.formulariodecontacto form button:hover,
+.formulariodecontacto form button:focus {
+    background:rgb(130, 184, 187);
+    color: rgb(177, 197, 214);    
+    transition: background-color is ease-out;
+    outline: 0;
+}
+/*Separar en columnas el formulario*/
+.formulariodecontacto form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*excepcion para mensaje y button*/
+.formulariodecontacto form .block{
+    grid-column: 1/3;
+}
+
+.formulariodecontacto.Iframe{
+    text-align: center;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+/*pantallas grandes*/
+@media(min-width: 700px){
+    .tarjeta{
+        display:grid;
+        grid-template-columns:2fr 1fr ;
+    }
+}
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+/*VALIDACIONES*/
+.error{
+    display: block;
+    margin: auto;
+    color: #A950A1;
+    padding-top: 20px;
+}
