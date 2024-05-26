@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-    box-sizing: border-box;
-    overflow-x: hidden;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
   
   body {
     background-color: hsl(32, 77%, 90%);;
@@ -23,8 +23,7 @@
     grid-template-areas:
       "pack1 pack2 pack3"
       "pack1 pack2 pack3"
-      "pack1 pack2 pack3"
-      
+      "pack1 pack2 pack3" 
       "footer footer footer";
   }
   
