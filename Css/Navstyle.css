@@ -67,8 +67,7 @@ header nav ul li :hover {
 
 /* Media Query para pantallas de ancho entre 600px y 768px */
 @media (min-width: 600px) and (max-width: 768px) {
-  header {
-   
+  header {   
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -85,14 +84,15 @@ header nav ul li :hover {
 }
 
 /* Media Query para pantallas de ancho entre 320px y 480px */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 590px) {
   header {
     flex-wrap: wrap;
     justify-content: center;
+    min-width: 320px;
   }
 
-  #logo {
-    width: 100px;
+   #logo {
+    width: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -111,5 +111,6 @@ header nav ul li :hover {
 
   header nav ul li a {
     font-size: 1.2em; /* Ajusta el tamaño de la fuente según tus preferencias */
-  }
+  }  
+
 }

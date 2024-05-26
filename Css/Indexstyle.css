@@ -34,30 +34,22 @@
     background-image: url('../img/smarthome-e1539869677921-768x471-gigapixel-standard-scale-2_00x.jpg');
     
   }
-
-  .patrocinador1{
-  }
   
-  .patrocinador2{
-
-  },
-
-  .patrocinador3{
-    text-align: center; 
-
-  }
   .philipsImg{
-justify-content: center;
+    justify-content: center;
     height: 30%;
   }
-.samsungImg{
-justify-content: center;
-  height: 30%;
-}
-.broadlinkImg{
-  justify-content: center;
-  height: 20%;
-}
+  
+  .samsungImg{
+    justify-content: center;
+    height: 30%;
+  }
+
+  .broadlinkImg{
+    justify-content: center;
+    height: 20%;
+  }
+
   p {
     margin: 1.3em;
   }
