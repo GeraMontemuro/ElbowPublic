@@ -36,16 +36,22 @@
   }
   
   .philipsImg{
+    grid-area: patrocinador1;
+    height: 100px;
     justify-content: center;
     height: 30%;
   }
   
   .samsungImg{
+    grid-area: patrocinador2;
+    height: 100px;
     justify-content: center;
     height: 30%;
   }
 
   .broadlinkImg{
+    grid-area: patrocinador3;
+    height: 100px;
     justify-content: center;
     height: 20%;
   }

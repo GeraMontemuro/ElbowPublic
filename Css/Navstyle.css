@@ -1,6 +1,5 @@
 header{
-  position: fixed;
-  
+  position: fixed;  
   top: 0;
   left: 0;
   width: 100%;
@@ -76,11 +75,21 @@ header nav ul li :hover {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
+  
   header nav ul li {
     margin-top: 10px;
     margin-bottom: 5px;
   }
+
+  .philipsImg,
+  .samsungImg,
+  .broadlinkImg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
 }
 
 /* Media Query para pantallas de ancho entre 320px y 480px */
@@ -108,9 +117,31 @@ header nav ul li :hover {
     text-align: center;
     width: 100%;
   }
-
+  
   header nav ul li a {
     font-size: 1.2em; /* Ajusta el tamaño de la fuente según tus preferencias */
   }  
 
+  .philipsImg,
+  .samsungImg,
+  .broadlinkImg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }  
 }
+
+@media (min-width: 768px) {
+ 
+  .philipsImg,
+  .samsungImg,
+  .broadlinkImg {
+    max-width:100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }  
+
+
+}  

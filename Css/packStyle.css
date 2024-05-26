@@ -34,7 +34,7 @@
   
   .secondaryImg:hover {
     border-radius: 20px;
-    -webkit-filter: grayscale(100%);
+    webkit-filter: grayscale(100%);
   }
   
   ul {
@@ -70,13 +70,13 @@
         grid-gap: 1px;
         grid-template-columns: repeat(2,50%);
         grid-template-rows: repeat(5, auto);
-            grid-template-areas:
+        grid-template-areas:
                                  
-                                 "principalNews principalNews"
-                                 "principalNews principalNews"
-                                 "pack4 pack5"
-                                 "pack1 pack2"
-                                 "pack3 pack3"      
+         "principalNews principalNews"
+         "principalNews principalNews"
+         "pack4 pack5"
+         "pack1 pack2"
+         "pack3 pack3"      
     }
 
     .pack3 {
@@ -98,16 +98,15 @@
         grid-gap: 1px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, auto);
-            grid-template-areas:
-                                 "principalNews" 
-                                 "news4"
-                                 "news5"
-                                 "news1"
-                                 "news2"  
-                                 "news3"  
+        grid-template-areas:
+        "principalNews" 
+        "news4"
+        "news5"
+        "news1"
+        "news2"  
+        "news3"  
     }
-
-
+    
     #imgPrincipal {
         height: 75%;
         width: 75%;
